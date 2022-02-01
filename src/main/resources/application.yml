@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/example?serverTimezone=Asia/Seoul
+    username: zozond
+    password: zozond
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update # ????? validate ??
+    show-sql: true
